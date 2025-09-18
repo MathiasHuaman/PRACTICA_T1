@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Escritorio\\PRACTICA_T1\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7EECD33D-89F9-4D71-9F03-A376DD1013EA}|PYTHON\\EJERCICIO_1_PY.pyproj|D:\\Escritorio\\PRACTICA_T1\\ConsoleApp1\\PYTHON\\PYTHON.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{7EECD33D-89F9-4D71-9F03-A376DD1013EA}|PYTHON\\EJERCICIO_1_PY.pyproj|solutionrelative:PYTHON\\PYTHON.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{527C5254-8C5D-47B3-B1FA-43893AE99EB3}|ConsoleApp1\\EJERCICIO_1_C#.csproj|D:\\Escritorio\\PRACTICA_T1\\ConsoleApp1\\consoleapp1\\c#.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{527C5254-8C5D-47B3-B1FA-43893AE99EB3}|ConsoleApp1\\EJERCICIO_1_C#.csproj|solutionrelative:consoleapp1\\c#.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EECD33D-89F9-4D71-9F03-A376DD1013EA}|PYTHON\\EJERCICIO_1_PY.pyproj|D:\\Escritorio\\PRACTICA_T1\\ConsoleApp1\\PYTHON\\PYTHON.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7EECD33D-89F9-4D71-9F03-A376DD1013EA}|PYTHON\\EJERCICIO_1_PY.pyproj|solutionrelative:PYTHON\\PYTHON.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PYTHON.py",
               "DocumentMoniker": "D:\\Escritorio\\PRACTICA_T1\\ConsoleApp1\\PYTHON\\PYTHON.py",
               "RelativeDocumentMoniker": "PYTHON\\PYTHON.py",
               "ToolTip": "D:\\Escritorio\\PRACTICA_T1\\ConsoleApp1\\PYTHON\\PYTHON.py",
               "RelativeToolTip": "PYTHON\\PYTHON.py",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2025-09-18T20:46:19.194Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "C#.cs",
               "DocumentMoniker": "D:\\Escritorio\\PRACTICA_T1\\ConsoleApp1\\ConsoleApp1\\C#.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\C#.cs",
               "ToolTip": "D:\\Escritorio\\PRACTICA_T1\\ConsoleApp1\\ConsoleApp1\\C#.cs",
               "RelativeToolTip": "ConsoleApp1\\C#.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAAAHMAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T20:27:15.174Z"
+              "WhenOpened": "2025-09-18T20:27:15.174Z",
+              "EditorCaption": ""
             }
           ]
         }

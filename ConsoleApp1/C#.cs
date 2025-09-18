@@ -41,8 +41,14 @@ namespace ConsoleApp1
                         break;
                     default:
                         Console.WriteLine("\nCÓDIGO DE DESCUENTO INCORRECTO");
+                        Environment.Exit(0);
                         break;
                 }
+            }
+            else
+            {
+                Console.WriteLine("\nEL PRECIO DEL PRODUCTO DEBE SER MAYOR A 0 Y EL CÓDIGO DE DESCUENTO VÁLIDO");
+                Environment.Exit(0);
             }
 
             if (precio_producto > 500)
@@ -78,7 +84,9 @@ namespace ConsoleApp1
             else if (nota < 0 || nota > 20)
             {
                 Console.WriteLine("TU NOTA ESTA FUERA DEL RANGO");
+                Environment.Exit(0);
             }
+
 
             switch (nota)
             {
@@ -109,11 +117,11 @@ namespace ConsoleApp1
                                  Console.WriteLine("Necesita reforzar");
             }
 
-             raiz = Math.Sqrt(nota);
+             raiz = Math.Round(Math.Sqrt(nota),1);
             potencia = Math.Pow(nota, 3);
 
             Console.WriteLine($"Raíz cuadrada: {raiz}");
-            Console.WriteLine($"Raíz cúbica: {potencia}");
+            Console.WriteLine($"Potencia: {potencia}");
 
         }
     }

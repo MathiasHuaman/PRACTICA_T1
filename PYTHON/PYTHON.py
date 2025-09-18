@@ -14,9 +14,10 @@ def ejer1():
     elif codigo_descuento == 2:
         descuento = precio_producto * 0.15
     elif codigo_descuento == 3:
-        descuento = precio_producto * 0.20
-    else:
+        descuento = precio_producto * 0.20   
+ else:
         print("Codigo de descuento invalido.")
+        exit()
        
 
  if precio_producto > 500:
@@ -32,22 +33,22 @@ def ejer2():
     import math
     nota = int(input("Ingrese su nota (0-20): "))
 
-    if 0<=nota<=20:
-        print("TU NOTA ESTA DENTRO DEL RANGO")
-    else:
+    if nota >= 0 and nota <= 20:
+        print("\nTU NOTA ESTA DENTRO DEL RANGO")
+    elif nota < 0 or nota > 20:
             print("TU NOTA ESTA FUERA DEL RANGO")
+            exit()
 
     match nota:
         case n if 0 <= n <= 10:
-            print("DESAPROBADO")
+            print("TU ESTADO DE NOTA ES DESAPROBADO")
         case n if 11 <= n <= 13:
-            print("REGULAR")
+            print("TU ESTADO DE NOTA ES REGULAR")
         case n if 14 <= n <= 17:
-                print("BUENO")
+                print("TU ESTADO DE NOTA ES BUENO")
         case n if 18 <= n <= 20:
-                print("EXCELENTE")
-        case _:
-                print("NOTA INVALIDA")
+                print("TU ESTADO DE NOTA ES EXCELENTE")
+                
 
     if nota >= 14 and nota % 2 == 0:
        print("Buen desempeno con nota par")
@@ -55,13 +56,13 @@ def ejer2():
     if nota < 11 or nota % 2 != 0:
        print("Necesita reforzar") 
 
-    raiz = math.sqrt(nota)
-    potencia = math.pow(nota, 1/3) 
+    raiz = round(math.sqrt(nota) , 1)
+    potencia = math.pow(nota, 3) 
 
     print(f"Raiz cuadrada: {raiz}")
-    print(f"Raiz cubica: {potencia}")
+    print(f"Potencia: {potencia}")
 
 
 
 
-ejer1()
+ejer1() 
